@@ -1,12 +1,13 @@
-import React from "react";
 import NavbarFundation from "../src/components/organismos/Navbar/Navbar";
 
-const Home = () => {
+const About = () => {
   return (
     <div>
       <NavbarFundation />
+
+      <h1>Fundación</h1>
     </div>
   );
 };
 
-export default Home;
+export default About;
