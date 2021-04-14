@@ -1,27 +1,26 @@
 import React from "react";
 import { NavDropdown } from "react-bootstrap";
 
-const MiAndVi = ({ id, href, text }) => (
-  <NavDropdown.Item id={id} href={href}>
-    {text}
-  </NavDropdown.Item>
+const MiAndVi = ({ href, text }) => (
+	<NavDropdown.Item href={href}>{text}</NavDropdown.Item>
 );
 
 const Mision = {
-  id: "#Mision",
-  href: "/Conocenos",
-  text: "Mision",
+	href: "/Conocenos",
+
+	text: "Mision",
 };
 
 const Vision = {
-  href: "/Conocenos",
-  text: "Vision",
+	href: "/Conocenos",
+
+	text: "Vision",
 };
 
 export const ItemDropdown = () => (
-  <>
-    <MiAndVi {...Mision} />
+	<>
+		<MiAndVi {...Mision} />
 
-    <MiAndVi {...Vision} />
-  </>
+		<MiAndVi {...Vision} />
+	</>
 );
