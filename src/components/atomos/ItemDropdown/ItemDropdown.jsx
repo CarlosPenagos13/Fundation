@@ -9,12 +9,17 @@ const MiAndVi = ({ id, href, text }) => (
 
 const Mision = {
   id: "#Mision",
+
   href: "/Conocenos",
+
   text: "Mision",
 };
 
 const Vision = {
+  id: "#Vision",
+
   href: "/Conocenos",
+
   text: "Vision",
 };
 
