@@ -1,14 +1,13 @@
-import React from 'react';
-import NavbarFundation from '../src/components/organismos/Navbar/Navbar'
+import React from "react";
+import NavbarFundation from "../src/components/organismos/Navbar/Navbar";
 
 const reserva = () => {
-    return (
-        <div>
-            <NavbarFundation />
+	return (
+		<div>
+			<NavbarFundation />
+			Hello
+		</div>
+	);
+};
 
-        Hello
-        </div>
-    );
-}
-
-export default reserva
+export default reserva;

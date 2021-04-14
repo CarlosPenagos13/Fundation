@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const CarouselFundation__Container = styled.div`
 	padding-right: 10%;
 	padding-left: 10%;
+	min-height: calc(100vh - 132px - 146px);
 `;
 
 export const CarFundationContainer = styled.div`

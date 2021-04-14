@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const FooterFundation = styled.footer`
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
 	gap: 50px;
 	background-image: radial-gradient(
 		circle at 50% 50%,
@@ -13,4 +12,5 @@ export const FooterFundation = styled.footer`
 	color: #fff;
 	padding-top: 10px;
 	margin-top: 30px;
+	text-align: center;
 `;

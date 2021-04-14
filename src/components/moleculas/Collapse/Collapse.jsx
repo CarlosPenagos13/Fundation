@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+
 import Dropdown from "../../moleculas/Dropdown/Dropdown";
-import { ButtonApoyanos } from "../../atomos/Button/ButtonApoyanos";
 
 export const Collapse = () => {
 	return (
@@ -14,10 +14,6 @@ export const Collapse = () => {
 				<Nav.Link href="/Proyectos">Proyectos</Nav.Link>
 
 				<Nav.Link href="/reserva">Reserva</Nav.Link>
-			</Nav>
-
-			<Nav>
-				<ButtonApoyanos />
 			</Nav>
 		</Navbar.Collapse>
 	);
