@@ -1,10 +1,18 @@
 import React from "react";
-import { ItemButton } from "../../atomos/ButtonShare/ButtonShare";
+import {
+	ItemButton,
+	ItemButton__Reserva,
+} from "../../atomos/ButtonShare/ButtonShare";
+import { ButtonContainer__Reserva } from "./Styled";
 
-const BtnsShare = () => (
+export const BtnsShare = () => (
 	<>
 		<ItemButton />
 	</>
 );
 
-export default BtnsShare;
+export const BtnsShare__Reserva = () => (
+	<ButtonContainer__Reserva>
+		<ItemButton__Reserva />
+	</ButtonContainer__Reserva>
+);

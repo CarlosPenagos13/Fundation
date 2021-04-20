@@ -5,16 +5,34 @@ import { ButtonApoyanos } from "../ButtonApoyanos/ButtonApoyanos";
 
 import { FooterContainerFundation } from "./Styled";
 
-const FooterContainer = ({ text, dscrp1, src, width, dscrp2 }) => (
+const FooterContainer = ({
+	text,
+	dscrp1,
+	src,
+	width,
+	dscrp2,
+	dscrp3,
+	dscrp4,
+	dscrp5,
+	dscrp6,
+}) => (
 	<>
 		<FooterContainerFundation>
-			<img src={src} width={width} />
-
 			<h5>{text}</h5>
+
+			<img src={src} width={width} />
 
 			<p>{dscrp1}</p>
 
 			<p>{dscrp2}</p>
+
+			<p>{dscrp3}</p>
+
+			<p>{dscrp4}</p>
+
+			<p>{dscrp5}</p>
+
+			<p>{dscrp6}</p>
 		</FooterContainerFundation>
 	</>
 );
@@ -22,9 +40,17 @@ const FooterContainer = ({ text, dscrp1, src, width, dscrp2 }) => (
 const MetodosDeContacto = {
 	text: "Contactanos: ",
 
-	dscrp1: "313222667",
+	dscrp1: "Ing. Ambiental Daniela Porras Díaz",
 
-	dscrp2: "awenfundacion2019@gmail.com",
+	dscrp2: "Directora Fundación",
+
+	dscrp3: "+57 350 2975942 - +57 314 2092425",
+
+	dscrp4: "Diana Marcela Porras Díaz",
+
+	dscrp5: "Asesora técnica en producción agrícola",
+
+	dscrp6: "+57 311 4608881",
 };
 
 const Fundacion = {
@@ -54,11 +80,11 @@ export const ItemFooter = () => (
 			</Col>
 
 			<Col sm={4}>
-				<FooterContainer {...Fundacion} />
+				<FooterContainer {...Ubicacion} />
 			</Col>
 
 			<Col>
-				<FooterContainer {...Ubicacion} />
+				<FooterContainer {...Fundacion} />
 			</Col>
 		</Row>
 	</Container>
