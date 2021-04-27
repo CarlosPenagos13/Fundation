@@ -1,10 +1,16 @@
 import React from "react";
-import { ShareBtns } from "./Styled";
+import { ShareBtns, ShareBtns__Reserva } from "./Styled";
 
 const ButtonsContainer = ({ target, href, alt, src }) => (
 	<ShareBtns target={target} href={href}>
 		<img alt={alt} src={src} />
 	</ShareBtns>
+);
+
+const ButtonsContainer__Reserva = ({ target, href, alt, src }) => (
+	<ShareBtns__Reserva target={target} href={href}>
+		<img alt={alt} src={src} />
+	</ShareBtns__Reserva>
 );
 
 const facebook = {
@@ -30,8 +36,7 @@ const whatsapp = {
 const email = {
 	target: "_blank",
 
-	href:
-		"https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTgkfPxrpWjKxQvkVjfjFVpLbNqrJbNhQQtCKlLmJpcqPzXPhdhcDcfsCrfjQgFkfBxhJB",
+	href: "mailto:awenfundacion2019@gmail.com",
 
 	alt: "email_share",
 
@@ -43,5 +48,13 @@ export const ItemButton = () => (
 		<ButtonsContainer {...facebook} />
 		<ButtonsContainer {...whatsapp} />
 		<ButtonsContainer {...email} />
+	</>
+);
+
+export const ItemButton__Reserva = () => (
+	<>
+		<ButtonsContainer__Reserva {...facebook} />
+		<ButtonsContainer__Reserva {...whatsapp} />
+		<ButtonsContainer__Reserva {...email} />
 	</>
 );

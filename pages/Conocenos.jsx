@@ -1,23 +1,29 @@
 import React from "react";
 
+import { Table } from "react-bootstrap";
+
 import CarouselFundation from "../src/components/organismos/Carousel/Carousel";
 import NavbarFundation from "../src/components/organismos/Navbar/Navbar";
+import Estrategias from "../src/components/moleculas/Estrategias/Estrategias";
+import TableEstrategias from "../src/components/moleculas/TableEstrategias/TableEstrategias";
 import FooterPage from "../src/components/templates/footer/footer";
 
+import { ContainerFundation } from "../src/components/organismos/PrincipalPage/Styled";
+
 const Conocenos = () => {
-  return (
-    <div>
-      <NavbarFundation />
+	return (
+		<ContainerFundation>
+			<NavbarFundation />
 
-      <CarouselFundation />
+			<CarouselFundation />
 
-      <div id="#Mision">Mision</div>
+			<Estrategias />
 
-      <div id="#Vision">Vision</div>
+			<TableEstrategias />
 
-      <FooterPage />
-    </div>
-  );
+			<FooterPage />
+		</ContainerFundation>
+	);
 };
 
 export default Conocenos;

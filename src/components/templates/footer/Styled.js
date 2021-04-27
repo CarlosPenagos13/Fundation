@@ -13,4 +13,5 @@ export const FooterFundation = styled.footer`
 	padding-top: 10px;
 	margin-top: 30px;
 	text-align: center;
+	padding-bottom: 18px;
 `;

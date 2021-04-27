@@ -3,18 +3,55 @@ import Carousel from "react-bootstrap/Carousel";
 
 import { CarFundationContainer, CarouselFundation__Container } from "./Styled";
 
+const ImageContainer = ({ width, height, ClassName, src, alt }) => {
+	return (
+		<img
+			width={width}
+			height={height}
+			ClassName={ClassName}
+			src={src}
+			alt={alt}
+		/>
+	);
+};
+
+const IMG1 = {
+	width: "100%",
+
+	ClassName: "d-block",
+
+	src: "/images/Image1.jpg",
+
+	alt: "First Slide",
+};
+
+const IMG2 = {
+	width: "100%",
+
+	ClassName: "d-block",
+
+	src: "/images/Image2.jpg",
+
+	alt: "Second Slide",
+};
+
+const IMG3 = {
+	width: "100%",
+
+	ClassName: "d-block",
+
+	src: "/images/Image3.PNG",
+
+	alt: "Third Slide",
+};
+
 const CarouselFundation = () => {
 	return (
 		<CarouselFundation__Container>
 			<CarFundationContainer>
 				<Carousel>
 					<Carousel.Item>
-						<img
-							width="90%"
-							className="d-block"
-							src="/images/Image1.jpg"
-							alt="First slide"
-						/>
+						<ImageContainer {...IMG1} />
 
 						<Carousel.Caption>
 							<h3>First slide label</h3>
@@ -24,12 +61,7 @@ const CarouselFundation = () => {
 					</Carousel.Item>
 
 					<Carousel.Item>
-						<img
-							className="d-block"
-							width="90%"
-							src="/images/Image2.jpg"
-							alt="Second slide"
-						/>
+						<ImageContainer {...IMG2} />
 
 						<Carousel.Caption>
 							<h3>Second slide label</h3>
@@ -39,12 +71,7 @@ const CarouselFundation = () => {
 					</Carousel.Item>
 
 					<Carousel.Item>
-						<img
-							className="d-block"
-							width="90%"
-							src="/images/Image3.PNG/"
-							alt="Third slide"
-						/>
+						<ImageContainer {...IMG3} />
 					</Carousel.Item>
 				</Carousel>
 			</CarFundationContainer>
