@@ -75,8 +75,6 @@ export const ItemFooter = () => (
 		<Row>
 			<Col>
 				<FooterContainer {...MetodosDeContacto} />
-
-				<ButtonApoyanos />
 			</Col>
 
 			<Col sm={4}>
@@ -85,6 +83,8 @@ export const ItemFooter = () => (
 
 			<Col>
 				<FooterContainer {...Fundacion} />
+
+				<ButtonApoyanos />
 			</Col>
 		</Row>
 	</Container>

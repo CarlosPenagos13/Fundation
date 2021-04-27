@@ -1,9 +1,16 @@
 import React from "react";
+import CarouselHome from "../../moleculas/CarouselHome/CarouselHome";
 
-import { ContainerFundation } from "./Styled";
+import { ContainerFundation, HeaderFundation } from "./Styled";
 
 const PrincipalPage__Fundation = () => {
-	return <ContainerFundation></ContainerFundation>;
+	return (
+		<ContainerFundation>
+			<HeaderFundation>
+				<CarouselHome />
+			</HeaderFundation>
+		</ContainerFundation>
+	);
 };
 
 export default PrincipalPage__Fundation;
