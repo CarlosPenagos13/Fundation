@@ -12,7 +12,9 @@
 	"author": "CarlosPenagos",
 	"license": "ISC",
 	"dependencies": {
+		"axios": "^0.21.1",
 		"bootstrap": "^4.6.0",
+		"contentful": "^8.3.1",
 		"eslint-config-prettier": "^8.2.0",
 		"eslint-plugin-prettier": "^3.3.1",
 		"next": "^10.1.3",

@@ -9,32 +9,32 @@ const backgroundWhatsapp = "#68ae00";
 const backgroundFacebook = "#007bff";
 
 export const ShareBtns = styled.a`
-	background-color: ${backgroundWhatsapp};
-	line-height: ${lineHeight};
-	margin-right: ${MarginR};
-	padding: ${padding};
-	display: ${display};
-	border-radius: ${borderRadius};
+  background-color: ${backgroundWhatsapp};
+  line-height: ${lineHeight};
+  margin-right: ${MarginR};
+  padding: ${padding};
+  display: ${display};
+  border-radius: ${borderRadius};
 `;
 
 export const ShareBtns__Reserva = styled.a`
-	background-color: #000;
-	line-height: ${lineHeight};
-	margin-right: ${MarginR};
-	padding: ${padding};
-	display: ${display};
-	border-radius: 50px;
-	padding: 18px;
+  background-color: #000;
+  line-height: ${lineHeight};
+  margin-right: ${MarginR};
+  padding: ${padding};
+  display: ${display};
+  border-radius: 50px;
+  padding: 18px;
 
-	:first-child {
-		background-color: ${backgroundFacebook};
-	}
+  :first-child {
+    background-color: ${backgroundFacebook};
+  }
 
-	:nth-child(2) {
-		background-color: ${backgroundWhatsapp};
-	}
+  :nth-child(2) {
+    background-color: ${backgroundWhatsapp};
+  }
 
-	img {
-		width: 60px;
-	}
+  img {
+    width: 60px;
+  }
 `;

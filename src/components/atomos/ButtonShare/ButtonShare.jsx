@@ -2,59 +2,59 @@ import React from "react";
 import { ShareBtns, ShareBtns__Reserva } from "./Styled";
 
 const ButtonsContainer = ({ target, href, alt, src }) => (
-	<ShareBtns target={target} href={href}>
-		<img alt={alt} src={src} />
-	</ShareBtns>
+  <ShareBtns target={target} href={href}>
+    <img alt={alt} src={src} />
+  </ShareBtns>
 );
 
 const ButtonsContainer__Reserva = ({ target, href, alt, src }) => (
-	<ShareBtns__Reserva target={target} href={href}>
-		<img alt={alt} src={src} />
-	</ShareBtns__Reserva>
+  <ShareBtns__Reserva target={target} href={href}>
+    <img alt={alt} src={src} />
+  </ShareBtns__Reserva>
 );
 
 const facebook = {
-	target: "_blank",
+  target: "_blank",
 
-	href: "https://www.facebook.com/fundacionAwenColombia/",
+  href: "https://www.facebook.com/fundacionAwenColombia/",
 
-	alt: "facebook_share",
+  alt: "facebook_share",
 
-	src: "images/facebook.svg",
+  src: "images/facebook.svg",
 };
 
 const whatsapp = {
-	target: "_blank",
+  target: "_blank",
 
-	href: "https://chat.whatsapp.com/lgl5qijnwly2vqmp1jbfik",
+  href: "https://chat.whatsapp.com/lgl5qijnwly2vqmp1jbfik",
 
-	alt: "whatsapp_share",
+  alt: "whatsapp_share",
 
-	src: "images/whatsapp.svg",
+  src: "images/whatsapp.svg",
 };
 
 const email = {
-	target: "_blank",
+  target: "_blank",
 
-	href: "mailto:awenfundacion2019@gmail.com",
+  href: "mailto:awenfundacion2019@gmail.com",
 
-	alt: "email_share",
+  alt: "email_share",
 
-	src: "images/email.svg",
+  src: "images/email.svg",
 };
 
 export const ItemButton = () => (
-	<>
-		<ButtonsContainer {...facebook} />
-		<ButtonsContainer {...whatsapp} />
-		<ButtonsContainer {...email} />
-	</>
+  <>
+    <ButtonsContainer {...facebook} />
+    <ButtonsContainer {...whatsapp} />
+    <ButtonsContainer {...email} />
+  </>
 );
 
 export const ItemButton__Reserva = () => (
-	<>
-		<ButtonsContainer__Reserva {...facebook} />
-		<ButtonsContainer__Reserva {...whatsapp} />
-		<ButtonsContainer__Reserva {...email} />
-	</>
+  <>
+    <ButtonsContainer__Reserva {...facebook} />
+    <ButtonsContainer__Reserva {...whatsapp} />
+    <ButtonsContainer__Reserva {...email} />
+  </>
 );

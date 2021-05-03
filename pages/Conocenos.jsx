@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Table } from "react-bootstrap";
-
 import CarouselFundation from "../src/components/organismos/Carousel/Carousel";
 import NavbarFundation from "../src/components/organismos/Navbar/Navbar";
 import Estrategias from "../src/components/moleculas/Estrategias/Estrategias";
@@ -11,19 +9,19 @@ import FooterPage from "../src/components/templates/footer/footer";
 import { ContainerFundation } from "../src/components/organismos/PrincipalPage/Styled";
 
 const Conocenos = () => {
-	return (
-		<ContainerFundation>
-			<NavbarFundation />
+  return (
+    <ContainerFundation>
+      <NavbarFundation />
 
-			<CarouselFundation />
+      <CarouselFundation />
 
-			<Estrategias />
+      <Estrategias />
 
-			<TableEstrategias />
+      <TableEstrategias />
 
-			<FooterPage />
-		</ContainerFundation>
-	);
+      <FooterPage />
+    </ContainerFundation>
+  );
 };
 
 export default Conocenos;

@@ -7,19 +7,19 @@ import { ContainerDeck } from "../src/components/organismos/ContainerReserva/Sty
 import Banner from "../src/components/organismos/Banner/Banner";
 
 const reserva = () => {
-	return (
-		<>
-			<NavbarFundation />
+  return (
+    <>
+      <NavbarFundation />
 
-			<Banner />
+      <Banner />
 
-			<ContainerDeck>
-				<ContainerReserva />
-			</ContainerDeck>
+      <ContainerDeck>
+        <ContainerReserva />
+      </ContainerDeck>
 
-			<FooterPage />
-		</>
-	);
+      <FooterPage />
+    </>
+  );
 };
 
 export default reserva;

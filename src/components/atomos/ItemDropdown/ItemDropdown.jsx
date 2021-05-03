@@ -2,25 +2,25 @@ import React from "react";
 import { NavDropdown } from "react-bootstrap";
 
 const MiAndVi = ({ href, text }) => (
-	<NavDropdown.Item href={href}>{text}</NavDropdown.Item>
+  <NavDropdown.Item href={href}>{text}</NavDropdown.Item>
 );
 
 const Mision = {
-	href: "/Conocenos",
+  href: "/Conocenos",
 
-	text: "Mision",
+  text: "Mision",
 };
 
 const Vision = {
-	href: "/Conocenos",
+  href: "/Conocenos",
 
-	text: "Vision",
+  text: "Vision",
 };
 
 export const ItemDropdown = () => (
-	<>
-		<MiAndVi {...Mision} />
+  <>
+    <MiAndVi {...Mision} />
 
-		<MiAndVi {...Vision} />
-	</>
+    <MiAndVi {...Vision} />
+  </>
 );
