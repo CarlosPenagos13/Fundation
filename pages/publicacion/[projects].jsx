@@ -10,7 +10,7 @@ import {
   Info,
   DescriptionProject,
   WrapperProjects,
-} from "./Styled";
+} from "../../src/components/Styled";
 
 const client = createClient({
   space: process.env.CONTENTFUL_SPACE_ID,

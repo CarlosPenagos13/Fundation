@@ -29,4 +29,13 @@ export const WrapDeck = styled.div`
   grid-gap: 20px 60px;
   margin: 50px;
   margin-top: 30px;
+  @media (max-width: 1000px) {
+    .list-group {
+      margin-left: -25px;
+      margin-right: -30px;
+    }
+    margin: 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
 `;
