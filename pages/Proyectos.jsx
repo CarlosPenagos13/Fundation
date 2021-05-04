@@ -8,6 +8,7 @@ import FooterPage from "../src/components/templates/footer/footer";
 
 import { createClient } from "contentful";
 import Deck from "../src/components/organismos/Deck/Deck";
+import ListProjects from "../src/components/organismos/ListProjects/ListProjects";
 import { DeckCont, WrapDeck } from "../src/components/organismos/Deck/Styled";
 
 export async function getStaticProps() {
@@ -34,13 +35,9 @@ const Proyectos = ({ datas }) => {
       <NavbarFundation />
       <WrapDeck>
         <ListGroup>
-          <ListGroup.Item>Cras justo odio</ListGroup.Item>
-
-          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-
-          <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-
-          <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+          {datas.map((data) => (
+            <ListProjects key={data.sys.id} data={data} />
+          ))}
         </ListGroup>
 
         <DeckCont>

@@ -21,4 +21,19 @@ export const Wrapper = styled.div`
     background-color: revert;
     border: 0px solid rgba(0, 0, 0, 0);
   }
+  @media (max-width: 1000px) {
+    .card-title {
+      font-size: 20px;
+    }
+    .card-body {
+      background-color: #181b31;
+      color: #ffffff;
+      border-radius: 20px;
+      margin: -30px 20px 70px 10px;
+      padding: 60px 40px 50px 40px;
+    }
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 15px;
+  }
 `;

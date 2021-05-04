@@ -6,7 +6,8 @@ export const ContainerFundation = styled.div`
   @media (max-width: 1829px) {
     margin-bottom: -200px;
   }
-  @media (max-width: 1758px) {
+  @media (max-width: 1000px) {
+    margin-bottom: -50px;
   }
 `;
 
@@ -34,7 +35,6 @@ export const HeaderFundation = styled.div`
   }
 
   @media (max-width: 1000px) {
-    bottom: 10px;
-    width: 100%;
+    bottom: 0px;
   }
 `;

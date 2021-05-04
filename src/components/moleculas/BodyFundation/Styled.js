@@ -10,4 +10,21 @@ export const ContainerHome = styled.div`
     bottom: 200px;
     flex-wrap: wrap;
   }
+
+  @media (max-width: 1000px) {
+    bottom: 100px;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 1000px) {
+    display: block;
+    bottom: 0px;
+    margin-left: 25%;
+  }
+
+  @media (max-width: 650px) {
+    display: block;
+    bottom: 0px;
+    margin-left: 10%;
+  }
 `;

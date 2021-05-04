@@ -15,11 +15,10 @@ export default function Deck({ data }) {
         />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
-          <Card.Body>{}</Card.Body>
         </Card.Body>
         <Card.Footer>
           <Link href={"/publicacion/" + projects}>
-            <a>Mira en lo que estamos trabajando</a>
+            <button>Ver más sobre el proyecto</button>
           </Link>
         </Card.Footer>
       </Card>
