@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-export const BannerProjects = styled.div``;
+export const Fondo = styled.div`
+  background-image: url("images/background.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-color: rgba(255, 0, 0, 0.5);
+`;
 
 export const Info = styled.div`
   p {

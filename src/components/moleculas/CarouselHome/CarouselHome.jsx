@@ -17,8 +17,7 @@ const CarouselHome = () => {
           />
           <Carousel.Caption>
             <p>Conexion con la naturaleza</p>
-            <p>Empresa ambiental</p>
-            <ButtonApoyanos />
+            <p>Fundación ambiental</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

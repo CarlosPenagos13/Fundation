@@ -1,19 +1,18 @@
-import ContactFundation from "../src/components/organismos/Contact/Contact";
 import NavbarFundation from "../src/components/organismos/Navbar/Navbar";
 import PrincipalPageFundation from "../src/components/organismos/PrincipalPage/PrincipalPage";
 import FooterPage from "../src/components/templates/footer/footer";
 
+import { Fondo } from "../src/components/Styled";
+
 const Home = () => {
   return (
-    <>
-      <ContactFundation />
-
+    <Fondo>
       <NavbarFundation />
 
       <PrincipalPageFundation />
 
       <FooterPage />
-    </>
+    </Fondo>
   );
 };
 

@@ -7,7 +7,7 @@ import { Wrapper } from "./Styled";
 function ContainerCard() {
   return (
     <Wrapper>
-      <Card style={{ width: "394px", height: "533px" }}>
+      <Card>
         <Card.Body>
           <Card.Title>¿Quienes somos? Conexion con la naturaleza </Card.Title>
           <Card.Text>

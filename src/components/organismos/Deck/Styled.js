@@ -24,6 +24,7 @@ export const DeckCont = styled.div`
 `;
 
 export const WrapDeck = styled.div`
+  min-height: calc(100vh - 132px - 146px);
   display: grid;
   grid-template-columns: max-content 1fr;
   grid-gap: 20px 60px;

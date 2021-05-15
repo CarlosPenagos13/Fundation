@@ -64,12 +64,6 @@ const Fundacion = {
   width: "60px",
 };
 
-const Proyectos = {
-  text: "Proyectos ",
-
-  dscrp1: "",
-};
-
 export const ItemFooter = () => (
   <Container>
     <Row>
@@ -77,9 +71,7 @@ export const ItemFooter = () => (
         <FooterContainer {...MetodosDeContacto} />
       </Col>
 
-      <Col sm={4}>
-        <FooterContainer {...Proyectos} />
-      </Col>
+      <Col sm={4}></Col>
 
       <Col>
         <FooterContainer {...Fundacion} />

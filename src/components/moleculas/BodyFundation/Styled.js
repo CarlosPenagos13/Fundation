@@ -4,7 +4,7 @@ export const ContainerHome = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 400px;
+  bottom: 500px;
   z-index: 10;
   @media (max-width: 1829px) {
     bottom: 200px;
@@ -16,7 +16,7 @@ export const ContainerHome = styled.div`
     flex-wrap: wrap;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 500px) {
     display: block;
     bottom: 0px;
     margin-left: 25%;
@@ -26,5 +26,8 @@ export const ContainerHome = styled.div`
     display: block;
     bottom: 0px;
     margin-left: 10%;
+  }
+  @media (max-width: 425px) {
+    margin-left: 10px;
   }
 `;

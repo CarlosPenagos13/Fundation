@@ -20,8 +20,11 @@ export const Wrapper = styled.div`
   .card {
     background-color: revert;
     border: 0px solid rgba(0, 0, 0, 0);
+    display: flex;
+    width: 394px;
+    height: 533px;
   }
-  @media (max-width: 1000px) {
+  @media (max-width: 800px) {
     .card-title {
       font-size: 20px;
     }
@@ -35,5 +38,13 @@ export const Wrapper = styled.div`
     margin-bottom: 30px;
     margin-top: 50px;
     font-size: 15px;
+  }
+  @media (max-width: 500px) {
+    .card {
+      background-color: revert;
+      border: 0px solid rgba(0, 0, 0, 0);
+      width: 100%;
+      height: 100%;
+    }
   }
 `;

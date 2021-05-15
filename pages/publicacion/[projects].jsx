@@ -53,18 +53,16 @@ export default function ProyectosDetails({ data }) {
       <NavbarFundation />
 
       <WrapperProjects>
-        <BannerProjects>
+        <>
           <Image
             src={"https:" + thumbnail.fields.file.url}
             width={thumbnail.fields.file.details.image.width}
             height={thumbnail.fields.file.details.image.height}
           />
-        </BannerProjects>
+        </>
         <h2>{title}</h2>
 
         <Info>
-          <p>sadasdasdasdasdasdasdasdasd.</p>
-
           <h3>Objetivos:</h3>
 
           {objectives.map((obj) => (

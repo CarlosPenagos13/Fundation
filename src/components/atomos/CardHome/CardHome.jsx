@@ -18,7 +18,7 @@ const CardTog = ({
   text9,
   text10,
 }) => (
-  <Card style={{ width: "430px" }}>
+  <Card>
     <Card.Body>
       <Card.Title> {title} </Card.Title>
       <Card.Text>{text}</Card.Text>

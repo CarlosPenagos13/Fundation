@@ -4,7 +4,7 @@ import { Navbar } from "react-bootstrap";
 export const Brand = () => {
   return (
     <Navbar.Brand href="/">
-      <img src="/images/awen oscar.png" width="50px" />
+      <img src="/images/awen oscar.png" width="80px" />
     </Navbar.Brand>
   );
 };

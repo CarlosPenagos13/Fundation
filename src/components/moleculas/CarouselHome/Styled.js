@@ -10,6 +10,9 @@ export const CarouselHomeContainer = styled.div`
   }
   .carousel-caption p {
     font-size: 30px;
+    border-radius: 500px;
+    background-color: rgba(120, 120, 120, 0.3);
+    color: rgba(250, 250, 100);
   }
   img {
     border-bottom-right-radius: 50px;
