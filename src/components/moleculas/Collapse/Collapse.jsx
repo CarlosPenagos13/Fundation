@@ -7,8 +7,6 @@ export const Collapse = () => {
   return (
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
-        <Nav.Link href="/">Fundacion AWEN</Nav.Link>
-
         <Dropdown />
 
         <Nav.Link href="/Proyectos">Proyectos</Nav.Link>
