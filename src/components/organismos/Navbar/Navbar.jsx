@@ -13,7 +13,7 @@ const NavbarFundation = () => {
         <Brand />
 
         <Nav.Link className="NameFund" href="/">
-          Fundacion AWEN
+          Fundacion Awen Colombia
         </Nav.Link>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
