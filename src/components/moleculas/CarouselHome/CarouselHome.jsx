@@ -30,7 +30,6 @@ const CarouselHome = () => {
           <Carousel.Caption>
             <p>Plantemos un arbol</p>
             <p>Kit principal</p>
-            <ButtonApoyanos />
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
